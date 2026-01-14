@@ -1,0 +1,37 @@
+# Arquivos e diretórios que o uv deve ignorar
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Ambientes virtuais antigos
+venv/
+env/
+ENV/
+
+# Arquivos de teste
+test_*.py
+*_test.py
+tests/
+
+# Documentação
+docs/
+*.md
+
+# Arquivos temporários
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
